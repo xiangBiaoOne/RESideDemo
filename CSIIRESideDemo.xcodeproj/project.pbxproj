@@ -8,24 +8,69 @@
 
 /* Begin PBXBuildFile section */
 		FE0E58C41EC01C31003E1C6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E58C31EC01C31003E1C6B /* main.m */; };
-		FE0E58C71EC01C31003E1C6B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E58C61EC01C31003E1C6B /* AppDelegate.m */; };
-		FE0E58CA1EC01C31003E1C6B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE0E58C91EC01C31003E1C6B /* ViewController.m */; };
 		FE0E58CD1EC01C31003E1C6B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E58CB1EC01C31003E1C6B /* Main.storyboard */; };
 		FE0E58CF1EC01C31003E1C6B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE0E58CE1EC01C31003E1C6B /* Assets.xcassets */; };
 		FE0E58D21EC01C31003E1C6B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE0E58D01EC01C31003E1C6B /* LaunchScreen.storyboard */; };
+		FE264A211EC1DBEF001ED5C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FE2649FE1EC1DBEE001ED5C4 /* AppDelegate.m */; };
+		FE264A281EC1DBEF001ED5C4 /* XBRightViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A0F1EC1DBEE001ED5C4 /* XBRightViewCell.m */; };
+		FE264A291EC1DBEF001ED5C4 /* XBRightViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE264A101EC1DBEE001ED5C4 /* XBRightViewCell.xib */; };
+		FE264A2A1EC1DBEF001ED5C4 /* XBRightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A121EC1DBEF001ED5C4 /* XBRightViewController.m */; };
+		FE264A2B1EC1DBEF001ED5C4 /* XBRootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A151EC1DBEF001ED5C4 /* XBRootViewController.m */; };
+		FE264A2C1EC1DBEF001ED5C4 /* XBSingleClass.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A171EC1DBEF001ED5C4 /* XBSingleClass.m */; };
+		FE264A401EC1DC54001ED5C4 /* XBHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A3B1EC1DC54001ED5C4 /* XBHomeViewController.m */; };
+		FE264A411EC1DC54001ED5C4 /* XBManagerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A3D1EC1DC54001ED5C4 /* XBManagerViewController.m */; };
+		FE264A421EC1DC54001ED5C4 /* XBMyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A3F1EC1DC54001ED5C4 /* XBMyViewController.m */; };
+		FE264A491EC1DC82001ED5C4 /* RECommonFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A441EC1DC82001ED5C4 /* RECommonFunctions.m */; };
+		FE264A4A1EC1DC82001ED5C4 /* RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A461EC1DC82001ED5C4 /* RESideMenu.m */; };
+		FE264A4B1EC1DC82001ED5C4 /* UIViewController+RESideMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A481EC1DC82001ED5C4 /* UIViewController+RESideMenu.m */; };
+		FE264A541EC1DCAA001ED5C4 /* XBBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A4D1EC1DCAA001ED5C4 /* XBBaseViewController.m */; };
+		FE264A551EC1DCAA001ED5C4 /* XBOneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A4F1EC1DCAA001ED5C4 /* XBOneViewController.m */; };
+		FE264A561EC1DCAA001ED5C4 /* XBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A511EC1DCAA001ED5C4 /* XBSecondViewController.m */; };
+		FE264A571EC1DCAA001ED5C4 /* XBThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A531EC1DCAA001ED5C4 /* XBThirdViewController.m */; };
+		FE264A5C1EC1E4BF001ED5C4 /* XBDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FE264A5B1EC1E4BF001ED5C4 /* XBDetailViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		FE0E58BF1EC01C31003E1C6B /* CSIIRESideDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CSIIRESideDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE0E58C31EC01C31003E1C6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FE0E58C51EC01C31003E1C6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FE0E58C61EC01C31003E1C6B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FE0E58C81EC01C31003E1C6B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FE0E58C91EC01C31003E1C6B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		FE0E58CC1EC01C31003E1C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE0E58CE1EC01C31003E1C6B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE0E58D11EC01C31003E1C6B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE0E58D31EC01C31003E1C6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE2649FD1EC1DBEE001ED5C4 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FE2649FE1EC1DBEE001ED5C4 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FE264A0E1EC1DBEE001ED5C4 /* XBRightViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBRightViewCell.h; sourceTree = "<group>"; };
+		FE264A0F1EC1DBEE001ED5C4 /* XBRightViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBRightViewCell.m; sourceTree = "<group>"; };
+		FE264A101EC1DBEE001ED5C4 /* XBRightViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XBRightViewCell.xib; sourceTree = "<group>"; };
+		FE264A111EC1DBEE001ED5C4 /* XBRightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBRightViewController.h; sourceTree = "<group>"; };
+		FE264A121EC1DBEF001ED5C4 /* XBRightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBRightViewController.m; sourceTree = "<group>"; };
+		FE264A141EC1DBEF001ED5C4 /* XBRootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBRootViewController.h; sourceTree = "<group>"; };
+		FE264A151EC1DBEF001ED5C4 /* XBRootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBRootViewController.m; sourceTree = "<group>"; };
+		FE264A161EC1DBEF001ED5C4 /* XBSingleClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSingleClass.h; sourceTree = "<group>"; };
+		FE264A171EC1DBEF001ED5C4 /* XBSingleClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSingleClass.m; sourceTree = "<group>"; };
+		FE264A3A1EC1DC54001ED5C4 /* XBHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBHomeViewController.h; sourceTree = "<group>"; };
+		FE264A3B1EC1DC54001ED5C4 /* XBHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBHomeViewController.m; sourceTree = "<group>"; };
+		FE264A3C1EC1DC54001ED5C4 /* XBManagerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBManagerViewController.h; sourceTree = "<group>"; };
+		FE264A3D1EC1DC54001ED5C4 /* XBManagerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBManagerViewController.m; sourceTree = "<group>"; };
+		FE264A3E1EC1DC54001ED5C4 /* XBMyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBMyViewController.h; sourceTree = "<group>"; };
+		FE264A3F1EC1DC54001ED5C4 /* XBMyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBMyViewController.m; sourceTree = "<group>"; };
+		FE264A431EC1DC82001ED5C4 /* RECommonFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RECommonFunctions.h; sourceTree = "<group>"; };
+		FE264A441EC1DC82001ED5C4 /* RECommonFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RECommonFunctions.m; sourceTree = "<group>"; };
+		FE264A451EC1DC82001ED5C4 /* RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RESideMenu.h; sourceTree = "<group>"; };
+		FE264A461EC1DC82001ED5C4 /* RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RESideMenu.m; sourceTree = "<group>"; };
+		FE264A471EC1DC82001ED5C4 /* UIViewController+RESideMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+RESideMenu.h"; sourceTree = "<group>"; };
+		FE264A481EC1DC82001ED5C4 /* UIViewController+RESideMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+RESideMenu.m"; sourceTree = "<group>"; };
+		FE264A4C1EC1DCAA001ED5C4 /* XBBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBBaseViewController.h; sourceTree = "<group>"; };
+		FE264A4D1EC1DCAA001ED5C4 /* XBBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBBaseViewController.m; sourceTree = "<group>"; };
+		FE264A4E1EC1DCAA001ED5C4 /* XBOneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBOneViewController.h; sourceTree = "<group>"; };
+		FE264A4F1EC1DCAA001ED5C4 /* XBOneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBOneViewController.m; sourceTree = "<group>"; };
+		FE264A501EC1DCAA001ED5C4 /* XBSecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBSecondViewController.h; sourceTree = "<group>"; };
+		FE264A511EC1DCAA001ED5C4 /* XBSecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBSecondViewController.m; sourceTree = "<group>"; };
+		FE264A521EC1DCAA001ED5C4 /* XBThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBThirdViewController.h; sourceTree = "<group>"; };
+		FE264A531EC1DCAA001ED5C4 /* XBThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBThirdViewController.m; sourceTree = "<group>"; };
+		FE264A581EC1DDF3001ED5C4 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FE264A5A1EC1E4BF001ED5C4 /* XBDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XBDetailViewController.h; sourceTree = "<group>"; };
+		FE264A5B1EC1E4BF001ED5C4 /* XBDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XBDetailViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,10 +103,13 @@
 		FE0E58C11EC01C31003E1C6B /* CSIIRESideDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FE0E58C51EC01C31003E1C6B /* AppDelegate.h */,
-				FE0E58C61EC01C31003E1C6B /* AppDelegate.m */,
-				FE0E58C81EC01C31003E1C6B /* ViewController.h */,
-				FE0E58C91EC01C31003E1C6B /* ViewController.m */,
+				FE264A591EC1E4AF001ED5C4 /* DetailVC */,
+				FE2649FC1EC1DBEE001ED5C4 /* AppDelegate */,
+				FE2649FF1EC1DBEE001ED5C4 /* MainVC */,
+				FE264A061EC1DBEE001ED5C4 /* RESideMenu */,
+				FE264A0D1EC1DBEE001ED5C4 /* RightVC */,
+				FE264A131EC1DBEF001ED5C4 /* RootVC */,
+				FE264A181EC1DBEF001ED5C4 /* SecondVC */,
 				FE0E58CB1EC01C31003E1C6B /* Main.storyboard */,
 				FE0E58CE1EC01C31003E1C6B /* Assets.xcassets */,
 				FE0E58D01EC01C31003E1C6B /* LaunchScreen.storyboard */,
@@ -75,8 +123,91 @@
 			isa = PBXGroup;
 			children = (
 				FE0E58C31EC01C31003E1C6B /* main.m */,
+				FE264A581EC1DDF3001ED5C4 /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FE2649FC1EC1DBEE001ED5C4 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				FE2649FD1EC1DBEE001ED5C4 /* AppDelegate.h */,
+				FE2649FE1EC1DBEE001ED5C4 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		FE2649FF1EC1DBEE001ED5C4 /* MainVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A3A1EC1DC54001ED5C4 /* XBHomeViewController.h */,
+				FE264A3B1EC1DC54001ED5C4 /* XBHomeViewController.m */,
+				FE264A3C1EC1DC54001ED5C4 /* XBManagerViewController.h */,
+				FE264A3D1EC1DC54001ED5C4 /* XBManagerViewController.m */,
+				FE264A3E1EC1DC54001ED5C4 /* XBMyViewController.h */,
+				FE264A3F1EC1DC54001ED5C4 /* XBMyViewController.m */,
+			);
+			path = MainVC;
+			sourceTree = "<group>";
+		};
+		FE264A061EC1DBEE001ED5C4 /* RESideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A431EC1DC82001ED5C4 /* RECommonFunctions.h */,
+				FE264A441EC1DC82001ED5C4 /* RECommonFunctions.m */,
+				FE264A451EC1DC82001ED5C4 /* RESideMenu.h */,
+				FE264A461EC1DC82001ED5C4 /* RESideMenu.m */,
+				FE264A471EC1DC82001ED5C4 /* UIViewController+RESideMenu.h */,
+				FE264A481EC1DC82001ED5C4 /* UIViewController+RESideMenu.m */,
+			);
+			path = RESideMenu;
+			sourceTree = "<group>";
+		};
+		FE264A0D1EC1DBEE001ED5C4 /* RightVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A0E1EC1DBEE001ED5C4 /* XBRightViewCell.h */,
+				FE264A0F1EC1DBEE001ED5C4 /* XBRightViewCell.m */,
+				FE264A101EC1DBEE001ED5C4 /* XBRightViewCell.xib */,
+				FE264A111EC1DBEE001ED5C4 /* XBRightViewController.h */,
+				FE264A121EC1DBEF001ED5C4 /* XBRightViewController.m */,
+			);
+			path = RightVC;
+			sourceTree = "<group>";
+		};
+		FE264A131EC1DBEF001ED5C4 /* RootVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A141EC1DBEF001ED5C4 /* XBRootViewController.h */,
+				FE264A151EC1DBEF001ED5C4 /* XBRootViewController.m */,
+				FE264A161EC1DBEF001ED5C4 /* XBSingleClass.h */,
+				FE264A171EC1DBEF001ED5C4 /* XBSingleClass.m */,
+			);
+			path = RootVC;
+			sourceTree = "<group>";
+		};
+		FE264A181EC1DBEF001ED5C4 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A4C1EC1DCAA001ED5C4 /* XBBaseViewController.h */,
+				FE264A4D1EC1DCAA001ED5C4 /* XBBaseViewController.m */,
+				FE264A4E1EC1DCAA001ED5C4 /* XBOneViewController.h */,
+				FE264A4F1EC1DCAA001ED5C4 /* XBOneViewController.m */,
+				FE264A501EC1DCAA001ED5C4 /* XBSecondViewController.h */,
+				FE264A511EC1DCAA001ED5C4 /* XBSecondViewController.m */,
+				FE264A521EC1DCAA001ED5C4 /* XBThirdViewController.h */,
+				FE264A531EC1DCAA001ED5C4 /* XBThirdViewController.m */,
+			);
+			path = SecondVC;
+			sourceTree = "<group>";
+		};
+		FE264A591EC1E4AF001ED5C4 /* DetailVC */ = {
+			isa = PBXGroup;
+			children = (
+				FE264A5A1EC1E4BF001ED5C4 /* XBDetailViewController.h */,
+				FE264A5B1EC1E4BF001ED5C4 /* XBDetailViewController.m */,
+			);
+			path = DetailVC;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -105,6 +236,7 @@
 		FE0E58B71EC01C31003E1C6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CSII;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = xiangbiao;
 				TargetAttributes = {
@@ -141,6 +273,7 @@
 				FE0E58D21EC01C31003E1C6B /* LaunchScreen.storyboard in Resources */,
 				FE0E58CF1EC01C31003E1C6B /* Assets.xcassets in Resources */,
 				FE0E58CD1EC01C31003E1C6B /* Main.storyboard in Resources */,
+				FE264A291EC1DBEF001ED5C4 /* XBRightViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,9 +284,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE0E58CA1EC01C31003E1C6B /* ViewController.m in Sources */,
-				FE0E58C71EC01C31003E1C6B /* AppDelegate.m in Sources */,
+				FE264A2A1EC1DBEF001ED5C4 /* XBRightViewController.m in Sources */,
+				FE264A5C1EC1E4BF001ED5C4 /* XBDetailViewController.m in Sources */,
+				FE264A4B1EC1DC82001ED5C4 /* UIViewController+RESideMenu.m in Sources */,
+				FE264A281EC1DBEF001ED5C4 /* XBRightViewCell.m in Sources */,
 				FE0E58C41EC01C31003E1C6B /* main.m in Sources */,
+				FE264A2B1EC1DBEF001ED5C4 /* XBRootViewController.m in Sources */,
+				FE264A561EC1DCAA001ED5C4 /* XBSecondViewController.m in Sources */,
+				FE264A571EC1DCAA001ED5C4 /* XBThirdViewController.m in Sources */,
+				FE264A401EC1DC54001ED5C4 /* XBHomeViewController.m in Sources */,
+				FE264A211EC1DBEF001ED5C4 /* AppDelegate.m in Sources */,
+				FE264A551EC1DCAA001ED5C4 /* XBOneViewController.m in Sources */,
+				FE264A541EC1DCAA001ED5C4 /* XBBaseViewController.m in Sources */,
+				FE264A411EC1DC54001ED5C4 /* XBManagerViewController.m in Sources */,
+				FE264A2C1EC1DBEF001ED5C4 /* XBSingleClass.m in Sources */,
+				FE264A421EC1DC54001ED5C4 /* XBMyViewController.m in Sources */,
+				FE264A4A1EC1DC82001ED5C4 /* RESideMenu.m in Sources */,
+				FE264A491EC1DC82001ED5C4 /* RECommonFunctions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +421,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L787CXEDL;
+				GCC_PREFIX_HEADER = CSIIRESideDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = CSIIRESideDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangBiao.CSIIRESideDemo;
@@ -286,6 +434,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L787CXEDL;
+				GCC_PREFIX_HEADER = CSIIRESideDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = CSIIRESideDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.xiangBiao.CSIIRESideDemo;
@@ -312,6 +461,7 @@
 				FE0E58D81EC01C31003E1C6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

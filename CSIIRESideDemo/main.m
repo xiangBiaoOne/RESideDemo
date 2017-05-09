@@ -1,6 +1,6 @@
 //
 //  main.m
-//  CSIIRESideDemo
+//  XBRESideDemo
 //
 //  Created by xiangbiao on 17/5/8.
 //  Copyright © 2017年 xiangbiao. All rights reserved.
