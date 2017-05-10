@@ -1,2 +1,11 @@
 # RESideDemo
 将第三方应用RESideMenu完美植入实际商业项目中，最佳实践。
+RESideMenu开源库是github上抽屉效果star最多的开源库。笔者第一次使用此开源库时，踩了不少坑。以下纪录一下使用笔记。
+
+网上对此开源库的使用说明非常多，但是几乎都是翻译作者写的代码且都说RESideMenu对UITabBarController支持不够友好，因此对实际项目用处不大，本次写作是针对实际项目，实际项目的主控制器是UITabBarController加导航控制器，如果使用RESideMenu开源库就面临一个问题，如何做到主控制器是UITabBarController加导航控制器来实现。
+
+准备工作：辅助代码，继承于NSObject自定义一个单例类(SingleClass)。
+
+思路如下：把RESideMenu库作为窗口的根视图控制器，UINavigationController作为RESideMenu库的contentViewController，此导航控制器的根视图控制器设置为自定义项目相关的UITabBarController视图控制器。
+
+注意：需要纪录工程的导航控制器和工程的主视图控制器，以便以后做界面之前的跳转时使用，纪录采用单例类(SingleClass)的对象来纪录。
