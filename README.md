@@ -9,3 +9,5 @@ RESideMenu开源库是github上抽屉效果star最多的开源库。笔者第一
 思路如下：把RESideMenu库作为窗口的根视图控制器，UINavigationController作为RESideMenu库的contentViewController，此导航控制器的根视图控制器设置为自定义项目相关的UITabBarController视图控制器。
 
 注意：需要纪录工程的导航控制器和工程的主视图控制器，以便以后做界面之前的跳转时使用，纪录采用单例类(SingleClass)的对象来纪录。
+
+在查看此项目遇到问题请联系：ritchieXB@163.com
